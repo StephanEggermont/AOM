@@ -11,15 +11,6 @@ Class {
 }
 
 { #category : 'as yet unclassified' }
-Party >> factNamed: aSymbol [
-
-    ^ (observations
-            detect: [ :each | each name = aSymbol ]
-            ifNone: [ nil ])
-        ifNotNil: #observationValue
-]
-
-{ #category : 'as yet unclassified' }
 Party >> id [
 	^ id
 ]
@@ -34,6 +25,15 @@ Party >> initialize [
 	observations := OrderedCollection new
 ]
 
+{ #category : 'as yet unclassified' }
+Party >> observationNamed: aSymbol [
+
+    ^ ((self observationsNamed: aSymbol)
+        ifEmpty: [ nil ]
+        ifNotEmpty: [ :all | all first ])
+        ifNotNil: #observationValue
+]
+
 { #category : 'accessing' }
 Party >> observations [
 	^ observations
@@ -42,6 +42,13 @@ Party >> observations [
 { #category : 'accessing' }
 Party >> observations: anObject [
 	observations := anObject
+]
+
+{ #category : 'as yet unclassified' }
+Party >> observationsNamed: aSymbol [
+
+    ^ observations
+        select: [ :each | each name = aSymbol ]
 ]
 
 { #category : 'as yet unclassified' }

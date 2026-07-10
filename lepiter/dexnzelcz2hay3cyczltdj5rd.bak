@@ -66,14 +66,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-10T23:15:57.692586+02:00"
+						"dateAndTimeString" : "2026-07-10T23:16:02.677256+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "zwC8B6TOQTCQn8ldLycIGA=="
 				},
-				"code" : "person := Person identifiedBy: PartyId new.\n\n    person\n        recordFactNamed: #name\n        value: 'Alice'.\n\n    self\n        assert:\n            (person factNamed: #name)\n        equals: 'Alice'."
+				"code" : "person := Person identifiedBy: PartyId new.\n\nperson\n        recordFactNamed: #name\n        value: 'Alice'.\n\n    self\n        assert:\n            (person factNamed: #name)\n        equals: 'Alice'."
 			}
 		]
 	},

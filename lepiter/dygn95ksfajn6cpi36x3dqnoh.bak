@@ -1,0 +1,110 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-10T23:33:19.765961+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-10T23:33:19.765961+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "3gjL7y1nQjSnJoLPbakdsw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "The customer now says:\n\nAlice has three phone numbers.\n\nOur current implementation quietly overwrites the first value or returns only the first match, depending on how we extend it. The assumption that a \"fact name\" identifies a single fact is no longer valid.\n\nThis is where we discover that Observation is not just a (name, value) pair. It is an individual assertion made about a party. A party can have multiple observations of the same kind, and they need to be distinguished in richer ways (source, validity, effective time, etc.).\n\nThat chapter is where the model starts to resemble Fowler's Observation pattern instead of a simple property bag, and it's the point where we begin laying the foundation for dual timelines without introducing them prematurely."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-10T23:33:58.183334+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-10T23:34:07.415975+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "BiG78BikS2aIwgEtAICYQw=="
+				},
+				"code" : "\n\n    alice := Person identifiedBy: PartyId new.\n\n    alice\n        recordFactNamed: #phone\n        value: '06-11111111'.\n\n    alice\n        recordFactNamed: #phone\n        value: '06-22222222'.\n\n    self\n        assert: (alice observationsNamed: #phone) size\n        equals: 2."
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2026-07-10T23:33:10.11029+02:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2026-07-10T23:33:10.11029+02:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "More observations of the same kind"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "61a3e1b0-4977-44c1-a3d5-0e58fe5fc1eb"
+	}
+}

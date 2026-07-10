@@ -26,7 +26,7 @@ PartyModelTest >> testPartyCanRememberAFact [
 
     self
         assert:
-            (person factNamed: #name)
+            (person observationNamed: #name)
         equals: 'Alice'.
 ]
 
@@ -40,6 +40,26 @@ PartyModelTest >> testPartyHasStableIdentity [
     party := Person identifiedBy: id.
 
     self assert: party id equals: id.
+]
+
+{ #category : 'as yet unclassified' }
+PartyModelTest >> testPartyMayHaveSeveralPhoneNumbers [
+
+    | alice |
+
+    alice := Person identifiedBy: PartyId new.
+
+    alice
+        recordFactNamed: #phone
+        value: '06-11111111'.
+
+    alice
+        recordFactNamed: #phone
+        value: '06-22222222'.
+
+    self
+        assert: (alice observationsNamed: #phone) size
+        equals: 2.
 ]
 
 { #category : 'as yet unclassified' }
