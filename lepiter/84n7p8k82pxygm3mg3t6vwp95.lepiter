@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-10T23:41:33.102112+02:00"
+						"dateAndTimeString" : "2026-07-10T23:53:07.219272+02:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-10T23:41:33.102112+02:00"
+						"dateAndTimeString" : "2026-07-10T23:53:07.219272+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "YGUp+nZhSTa6h1X2RW+kSA=="
+					"uidString" : "5uyMYW7QQZ2X65+rLlpAWQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Another customer request:\n\nCorrect phone number #2.\n\nHow?"
+				"string" : "A surprisingly common requirement.\n\nCustomer:\n\nThis address came from the municipality.\n\nAnother:\n\nThis phone number was entered manually.\n\nAnother:\n\nThis salary came from SAP.\n\nWhere does that belong?\n\nNot on Party.\n\nNot on ObservationType (we don't have one yet).\n\nIt belongs on the Observation itself."
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-10T23:42:00.2345+02:00"
+						"dateAndTimeString" : "2026-07-10T23:53:34.441719+02:00"
 					}
 				},
 				"editEmail" : {
@@ -66,14 +66,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-10T23:42:06.07137+02:00"
+						"dateAndTimeString" : "2026-07-10T23:53:36.698188+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "t1DUDi/UTt+CVVIJIWvuXw=="
+					"uidString" : "ZABz+0LhRMa9gWyBzzstPw=="
 				},
-				"code" : "\n\n    observation :=\n        Observation identifiedBy: ObservationId new.\n\n    self assert: observation id notNil."
+				"code" : "    observation :=\n        Observation identifiedBy: ObservationId new.\n\n    observation source: #Municipality.\n\n    self\n        assert: observation source\n        equals: #Municipality."
 			}
 		]
 	},
@@ -85,7 +85,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2026-07-10T23:41:19.708809+02:00"
+			"dateAndTimeString" : "2026-07-10T23:52:57.288883+02:00"
 		}
 	},
 	"editEmail" : {
@@ -96,15 +96,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2026-07-10T23:41:19.708809+02:00"
+			"dateAndTimeString" : "2026-07-10T23:52:57.288883+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "These observations need identity too"
+		"title" : "Where does this observation come from"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "1014dca2-70eb-4b23-b410-d4da0e466b1c"
+		"uuid" : "d92ee9c9-43b7-4eac-b01d-1b6b5f184f89"
 	}
 }

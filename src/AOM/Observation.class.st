@@ -4,7 +4,8 @@ Class {
 	#instVars : [
 		'name',
 		'observationValue',
-		'id'
+		'id',
+		'source'
 	],
 	#category : 'AOM-Observations',
 	#package : 'AOM',
@@ -46,4 +47,14 @@ Observation >> observationValue [
 { #category : 'accessing' }
 Observation >> observationValue: anObject [
 	observationValue := anObject
+]
+
+{ #category : 'as yet unclassified' }
+Observation >> source [
+	^ source
+]
+
+{ #category : 'accessing' }
+Observation >> source: aString [ 
+	source := aString
 ]

@@ -66,14 +66,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-10T23:42:06.07137+02:00"
+						"dateAndTimeString" : "2026-07-10T23:52:29.653836+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "t1DUDi/UTt+CVVIJIWvuXw=="
 				},
-				"code" : "\n\n    observation :=\n        Observation identifiedBy: ObservationId new.\n\n    self assert: observation id notNil."
+				"code" : "observation := Observation identifiedBy: ObservationId new"
 			}
 		]
 	},

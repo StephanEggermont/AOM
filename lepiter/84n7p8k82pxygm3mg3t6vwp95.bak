@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-10T22:48:42.609076+02:00"
+						"dateAndTimeString" : "2026-07-10T23:53:07.219272+02:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-10T23:41:17.566233+02:00"
+						"dateAndTimeString" : "2026-07-10T23:53:07.219272+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "6zo2XxOhTLaWk6WXeb9mfw=="
+					"uidString" : "5uyMYW7QQZ2X65+rLlpAWQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Let's evolve that  with dual timelines into a unified model\n[[The smallest possible domain]]\n[[Every party needs an identity]]\n[[The first real business requirement]]\n[[More observations of the same kind]]\n[[These observations need identity too]]"
+				"string" : "A surprisingly common requirement.\n\nCustomer:\n\nThis address came from the municipality.\n\nAnother:\n\nThis phone number was entered manually.\n\nAnother:\n\nThis salary came from SAP.\n\nWhere does that belong?\n\nNot on Party.\n\nNot on ObservationType (we don't have one yet).\n\nIt belongs on the Observation itself."
 			}
 		]
 	},
@@ -51,7 +51,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2026-07-10T22:46:56.181675+02:00"
+			"dateAndTimeString" : "2026-07-10T23:52:57.288883+02:00"
 		}
 	},
 	"editEmail" : {
@@ -62,15 +62,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2026-07-10T22:48:41.577382+02:00"
+			"dateAndTimeString" : "2026-07-10T23:52:57.288883+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Introducing the AOM model through Parties, Accountabilities and Observations"
+		"title" : "Where does this observation come from"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "3c11134b-3250-4e1a-816c-9223a836c1c7"
+		"uuid" : "d92ee9c9-43b7-4eac-b01d-1b6b5f184f89"
 	}
 }
