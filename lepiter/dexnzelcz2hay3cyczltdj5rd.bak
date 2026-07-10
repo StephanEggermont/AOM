@@ -1,0 +1,110 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-10T23:13:04.685445+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-10T23:14:23.339068+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "yVwqqYUdTU2rJJeV4yW8UA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Now the customer says\n\nEvery person has a name.\n\nAlmost every OO design immediately adds an instance variable\nWe won't.\n\nInstead we ask a question.\n\nWhy is a name different from an address?\n\nOr\n\neye colour\nsalary\nnationality\nphone number\nVAT number\n\nIt isn't.\n\nThey are all facts about a Party.\n\nThe model is trying to tell us something.\n\nInstead of adding another instance variable every time the customer invents a new fact, we should capture the concept of a fact.\n\nThat concept is the first genuinely important abstraction in the model.\nThe next chapter will derive Observation from failing tests rather than introducing it as an abstract idea. We'll start with a deliberately naive implementation of names, show why it scales poorly, and let the tests motivate replacing fixed attributes with a collection of observations. That is the first major step toward Fowler's Observation pattern and, eventually, the Adaptive Object Model."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-10T23:15:44.974389+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-10T23:15:57.692586+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "zwC8B6TOQTCQn8ldLycIGA=="
+				},
+				"code" : "person := Person identifiedBy: PartyId new.\n\n    person\n        recordFactNamed: #name\n        value: 'Alice'.\n\n    self\n        assert:\n            (person factNamed: #name)\n        equals: 'Alice'."
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2026-07-10T23:12:34.427403+02:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2026-07-10T23:12:34.427403+02:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "The first real business requirement"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "e9744286-d5f2-4c56-b4cb-9d0404dc97e2"
+	}
+}
