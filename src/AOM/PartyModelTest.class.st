@@ -14,6 +14,18 @@ PartyModelTest >> testOrganizationIsAParty [
 ]
 
 { #category : 'as yet unclassified' }
+PartyModelTest >> testPartyHasStableIdentity [
+
+    | id party |
+
+    id := PartyId new.
+
+    party := Person identifiedBy: id.
+
+    self assert: party id equals: id.
+]
+
+{ #category : 'as yet unclassified' }
 PartyModelTest >> testPersonIsAParty [
 	|person|
 	person := Person new.

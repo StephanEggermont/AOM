@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-10T22:49:45.290548+02:00"
+						"dateAndTimeString" : "2026-07-10T22:58:04.035624+02:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Let's evolve that  with dual timelines into a unified model\n[[Party]]"
+				"string" : "Let's evolve that  with dual timelines into a unified model\n[[The smallest possible domain]]"
 			}
 		]
 	},
