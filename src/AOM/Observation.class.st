@@ -5,7 +5,8 @@ Class {
 		'name',
 		'observationValue',
 		'id',
-		'source'
+		'source',
+		'validity'
 	],
 	#category : 'AOM-Observations',
 	#package : 'AOM',
@@ -27,6 +28,11 @@ Observation >> id [
 { #category : 'accessing' }
 Observation >> id: anObject [ 
 	id := anObject
+]
+
+{ #category : 'accessing' }
+Observation >> isEffectiveOn: aDate [
+	^validity includes: aDate
 ]
 
 { #category : 'accessing' }
@@ -57,4 +63,14 @@ Observation >> source [
 { #category : 'accessing' }
 Observation >> source: aString [ 
 	source := aString
+]
+
+{ #category : 'accessing' }
+Observation >> validity [
+	^ validity
+]
+
+{ #category : 'accessing' }
+Observation >> validity: anObject [
+	validity := anObject
 ]

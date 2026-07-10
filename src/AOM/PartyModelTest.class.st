@@ -18,6 +18,24 @@ PartyModelTest >> testObservationHasIdentity [
 ]
 
 { #category : 'as yet unclassified' }
+PartyModelTest >> testObservationIsEffectiveDuringAnInterval [
+
+    | address |
+
+    address := Observation identifiedBy: ObservationId new.
+
+    address
+        name: #address;
+        observationValue: 'Paris';
+        validity: (Validity from: (Date year: 2025 month: 1 day: 1)to: (Date year: 2025 month: 3 day: 31)).
+
+    self assert:
+        (address
+            isEffectiveOn:
+                (Date year: 2025 month: 2 day: 15)).
+]
+
+{ #category : 'as yet unclassified' }
 PartyModelTest >> testOrganizationIsAParty [
 	|organization|
 	organization := Organization new.
