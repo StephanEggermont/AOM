@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-10T22:48:42.609076+02:00"
+						"dateAndTimeString" : "2026-07-10T23:41:33.102112+02:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-10T23:41:17.566233+02:00"
+						"dateAndTimeString" : "2026-07-10T23:41:33.102112+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "6zo2XxOhTLaWk6WXeb9mfw=="
+					"uidString" : "YGUp+nZhSTa6h1X2RW+kSA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Let's evolve that  with dual timelines into a unified model\n[[The smallest possible domain]]\n[[Every party needs an identity]]\n[[The first real business requirement]]\n[[More observations of the same kind]]\n[[These observations need identity too]]"
+				"string" : "Another customer request:\n\nCorrect phone number #2.\n\nHow?"
 			}
 		]
 	},
@@ -51,7 +51,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2026-07-10T22:46:56.181675+02:00"
+			"dateAndTimeString" : "2026-07-10T23:41:19.708809+02:00"
 		}
 	},
 	"editEmail" : {
@@ -62,15 +62,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2026-07-10T22:48:41.577382+02:00"
+			"dateAndTimeString" : "2026-07-10T23:41:19.708809+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Introducing the AOM model through Parties, Accountabilities and Observations"
+		"title" : "These observations need identity too"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "3c11134b-3250-4e1a-816c-9223a836c1c7"
+		"uuid" : "1014dca2-70eb-4b23-b410-d4da0e466b1c"
 	}
 }

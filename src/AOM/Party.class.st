@@ -55,7 +55,7 @@ Party >> observationsNamed: aSymbol [
 Party >> recordFactNamed: aSymbol value: anObject [
 
     observations add:
-        (Observation new
+        ((Observation identifiedBy: ObservationId new)
             name: aSymbol;
             observationValue: anObject;
             yourself)

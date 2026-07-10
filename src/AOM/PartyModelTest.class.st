@@ -7,6 +7,17 @@ Class {
 }
 
 { #category : 'as yet unclassified' }
+PartyModelTest >> testObservationHasIdentity [
+
+    | observation |
+
+    observation :=
+        Observation identifiedBy: ObservationId new.
+
+    self assert: observation id notNil.
+]
+
+{ #category : 'as yet unclassified' }
 PartyModelTest >> testOrganizationIsAParty [
 	|organization|
 	organization := Organization new.
